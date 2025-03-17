@@ -95,8 +95,8 @@ text {
 }
 
 .Title {
-  font-size: 36px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .Subtitle {
@@ -116,4 +116,22 @@ text {
   font-size: 12px;
   margin: 5px;
   color: rgba(255, 255, 255, 0.65);
+}
+.Counter{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.Increment{
+  background-color: #ff6448;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
 }
